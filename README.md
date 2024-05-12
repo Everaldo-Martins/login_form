@@ -37,7 +37,7 @@ O arquivo `script.js` contém o código Javascript responsável por adicionar fu
 1. Clone o repositório para sua máquina local.
 2. Abra o arquivo `index.html` em um navegador web.
 3. Experimente a funcionalidade de login e visualize a senha digitada.
-4. Caso queira testar o formulário online, temos ele hospedado no Github pages. Teste aqui o [Formulário](https://everaldo-martins.github.io/login_form/)
+4. Caso queira testar o [formulário](https://everaldo-martins.github.io/login_form/) online, temos ele hospedado no Github pages.
 
 ## Licença
 
