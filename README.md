@@ -38,6 +38,13 @@ O arquivo `script.js` contém o código Javascript responsável por adicionar fu
 2. Abra o arquivo `index.html` em um navegador web.
 3. Experimente a funcionalidade de login e visualize a senha digitada.
 
+## Teste do Formulário
+
+Caso queira testar o formulário, temos ele hospedado no Github pages.
+
+- Teste aqui o [Formulário](https://www.google.com)
+
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE), o que significa que você pode utilizá-lo livremente, inclusive para fins comerciais, desde que mantenha o aviso de direitos autorais.
