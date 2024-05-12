@@ -1,0 +1,174 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+/* Resete */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,
+canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,
+fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,
+html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,
+p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,
+tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding:0;
+    border:none;
+    font-size:100%;
+    font:inherit;
+    vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,
+hgroup,menu,nav,section{
+    display:block;
+}
+html,body{height:100%;line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{
+    content:'';
+    content:none;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+body{
+    background: rgb(185, 164, 164) url(../img/autumn-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main{ 
+    background-color: rgba(255, 255, 255, 0.6);  
+    backdrop-filter: blur(12px);   
+    box-shadow: 0 6px 12px rgba(195, 4, 4, 0.4);      
+    width: calc(100% - 4rem);
+    max-width: calc(400px - 4rem);
+    border-radius: .8rem;
+    padding: 1rem 2rem;
+    z-index: 0;
+}               
+main div{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: .8rem 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+main .user{    
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    font-size: 7.4rem;
+    font-weight: 100;
+    color: #c30404;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4d4d4d;
+    border-radius: 10rem;
+} 
+main a, main a:hover,
+main a:visited, main a:active{
+    width: 100%;
+    padding: .1rem;
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #c30404;
+}
+main .email, main .pass,
+main .email:hover, main .pass:hover,
+main .email:focus, main .pass:focus,
+main .email:visited, main .pass:visited,
+main .email:active, main .pass:active{
+    background-color: transparent;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #4d4d4d;
+    border-radius: .5rem;
+    color: #4d4d4d;
+    outline: none;
+}
+
+main .email::placeholder, main .pass::placeholder {
+    color: transparent;
+}
+
+main .email::-webkit-contacts-auto-fill-button,
+main .pass::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+
+main .label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 32px;
+    left: 10px;
+    color: #4d4d4d;
+    pointer-events: none;
+    transform-origin: left center;
+    transition: transform 250ms;
+}
+
+main .email:focus + .label, main .pass:focus + .label,
+main .email:not(:placeholder-shown) + .label,
+main .pass:not(:placeholder-shown) + .label {
+    transform: translateY(-110%) scale(0.70);
+}
+
+main button{
+    background-color: rgba(195, 4, 4, 0.6);
+    width: calc(100%);
+    padding: 1rem;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: .5rem;
+    color: #e2e2e2;
+}
+main button:hover {
+    box-shadow: 0 4px 8px rgba(77, 77, 77, 0.2);
+}
+
+main .showpass{
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 100;
+    position: absolute;
+    top: 27px;
+    right: 15px;
+    color: #4d4d4d;
+    cursor: pointer;
+    z-index: 99;
+}
